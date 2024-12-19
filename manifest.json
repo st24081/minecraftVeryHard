@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "スクリプトAPIのテンプレート",
+      "description": "これはテンプレートです",
+      "uuid": "a2b9423f-d6cc-47b9-b63a-a3d7d27f514e",
+      "version": [0, 1, 0],
+      "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "0bdea8ad-cf3d-4fdb-ae81-1f54a411d854",
+        "entry": "scripts/main.js",
+        "version": [0, 1, 0]
+      }
+    ],
+    "capabilities": ["script_eval"],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.10.0"
+      }
+    ]
+  }
