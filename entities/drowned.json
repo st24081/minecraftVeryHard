@@ -39,7 +39,7 @@
           "inside_range": 60.0,
           "outside_range": 60.0,
           "on_inside_range": {
-            "event": "minecraft:switch_to_melee",
+            "event": "minecraft:switch_to_ranged",
             "target": "self"
           },
           "on_outside_range": {
@@ -518,7 +518,10 @@
       "minecraft:on_target_acquired": {
         "event": "minecraft:has_target",
         "target": "self"
+         
+        
       },
+      
       "minecraft:on_target_escape": {
         "event": "minecraft:lost_target",
         "target": "self"
@@ -591,8 +594,8 @@
       "minecraft:as_baby": {
         "add": {
           "component_groups": [
-            "minecraft:melee_equipment",
-            "minecraft:melee_mode",
+            "minecraft:ranged_equipment",
+            "minecraft:ranged_mode",
             "minecraft:baby_drowned"
           ]
         }
@@ -600,8 +603,8 @@
       "minecraft:as_adult": {
         "add": {
           "component_groups": [
-            "minecraft:melee_equipment",
-            "minecraft:melee_mode",
+            "minecraft:ranged_equipment",
+            "minecraft:ranged_mode",
             "minecraft:adult_drowned"
           ]
         }
@@ -629,6 +632,7 @@
           "component_groups": [
             "minecraft:hunter_mode"
           ]
+          
         }
       }
       
