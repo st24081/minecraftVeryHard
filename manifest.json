@@ -3,7 +3,7 @@
     "header": {
       "name": "スクリプトAPIのテンプレート",
       "description": "これはテンプレートです",
-      "uuid": "a2b9423f-d6cc-47b9-b63a-a3d7d27f514e",
+      "uuid": "0adccb2c-1770-44cf-ac03-2d203d7e5355",
       "version": [0, 1, 0],
       "min_engine_version": [1, 20, 0]
     },
@@ -11,7 +11,7 @@
       {
         "type": "script",
         "language": "javascript",
-        "uuid": "0bdea8ad-cf3d-4fdb-ae81-1f54a411d854",
+        "uuid": "33d28b59-d14c-4f67-a737-d082ced010bd",
         "entry": "scripts/main.js",
         "version": [0, 1, 0]
       }

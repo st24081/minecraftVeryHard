@@ -61,7 +61,7 @@
         "damage_conditions": []
       },
       "minecraft:attack": {
-        "damage": 100
+        "damage": 1000
       },
       "minecraft:follow_range": {
         "value": 64,
@@ -73,9 +73,9 @@
       },
       "minecraft:teleport": {
         "random_teleports": true,
-        "max_random_teleport_time": 1,
-        "random_teleport_cube": [7, 7, 7 ],
-        "target_distance": 4,
+        "max_random_teleport_time": 0.1,
+        "random_teleport_cube": [8, 8, 8 ],
+        "target_distance": 3,
         "target_teleport_chance": 1,
         "light_teleport_chance": 1
       },
