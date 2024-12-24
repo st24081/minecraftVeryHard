@@ -141,20 +141,21 @@
       "minecraft:projectile": {
         "on_hit": {
           "impact_damage": {
-            "damage": [ 10, 40 ],
+            "damage": [ 1, 4 ],
             "knockback": true,
             "semi_random_diff_damage": true,
             "destroy_on_hit": true
           },
           "stick_in_ground": {
-            "shake_time": 0.35
+            "shake_time": 0.1
           },
           "arrow_effect": {
             "apply_effect_to_blocking_targets": true
           }
         },
+        "homing": true,
         "hit_sound": "bow.hit",
-        "power": 3,
+        "power": 1,
         "gravity": 0,
         "uncertainty_base": 16,
         "uncertainty_multiplier": 4,

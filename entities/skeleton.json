@@ -220,7 +220,7 @@
         "table": "loot_tables/entities/skeleton.json"
       },
       "minecraft:movement": {
-        "value": 0.5
+        "value": -0.2
       },
       "minecraft:navigation.walk": {
         "is_amphibious": true,
