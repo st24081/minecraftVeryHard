@@ -12,10 +12,14 @@
         "minecraft:explode": {
           "fuse_length": 0,
           "fuse_lit": true,
-          "power": 1,
+          "power": 20,
           "causes_fire": true,
           "fire_affected_by_griefing": true,
-          "destroy_affected_by_griefing": true
+          "destroy_affected_by_griefing": true,
+          "knockback_scaling": 10.0,
+          "damage_scaling":0,
+          "toggles_blocks": true
+          
         }
       }
     },
@@ -40,8 +44,8 @@
             }
           }
         },
-        "power": 1.6,
-        "gravity": 0.00,
+        "power": 3,
+        "gravity": 0.7,
         "inertia": 1,
         "liquid_inertia": 1,
         "uncertainty_base": 0,

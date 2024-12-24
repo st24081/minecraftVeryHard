@@ -7,10 +7,24 @@
       "is_summonable": false
     },
 
+    "component_groups": {
+      "minecraft:exploding": {
+        "minecraft:explode": {
+          "fuse_length": 0.1,
+          "fuse_lit": true,
+          "power": 1,
+          "causes_fire": true,
+          "fire_affected_by_griefing": true,
+          "destroy_affected_by_griefing": true,
+          "breaks_blocks" : 50
+        }
+      }
+    },
+
     "components": {
       "minecraft:collision_box": {
-        "width": 0.31,
-        "height": 0.31
+        "width": 0.1,
+        "height": 0.1
       },
       "minecraft:projectile": {
         "on_hit": {
